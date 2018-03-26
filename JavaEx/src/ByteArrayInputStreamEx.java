@@ -1,4 +1,5 @@
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 
 public class ByteArrayInputStreamEx {
     public static void main(String[] args) {
@@ -14,6 +15,21 @@ public class ByteArrayInputStreamEx {
         System.out.println("second element read is: " + readedInt);
         readedInt = in.read(); // readedInt=0
         System.out.println("third element read is: " + readedInt);
+
+
+
+        ByteArrayOutputStream out =
+                new ByteArrayOutputStream();
+        out.write(10);
+        out.write(11);
+        byte[] bytes1 = out.toByteArray();
+        in = new ByteArrayInputStream(bytes1);
+        readedInt = in.read();
+        System.out.println("ByteArrayOutputStream 1 is: " + readedInt);
+        readedInt = in.read();
+        System.out.println("ByteArrayOutputStream 2 is: " + readedInt);
+
+
     }
 }
 
