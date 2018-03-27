@@ -36,3 +36,6 @@ public class ByteArrayInputStreamEx {
 //        first element read is: 1
 //        second element read is: 255
 //        third element read is: 0
+
+//        ByteArrayOutputStream 1 is: 10
+//        ByteArrayOutputStream 2 is: 11

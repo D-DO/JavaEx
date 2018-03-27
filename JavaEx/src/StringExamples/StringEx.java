@@ -1,3 +1,5 @@
+package StringExamples;
+
 public class StringEx {
     public static void main(String[] args) {
         String a1 = new String("qwe");
