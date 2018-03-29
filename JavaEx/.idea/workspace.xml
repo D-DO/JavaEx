@@ -12,16 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringEx2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StringExamples/StringEx2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ByteArrayInputStreamEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IOEx/ByteArrayInputStreamEx.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,14 +56,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SequenceInputStreamEx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SequenceInputStreamEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IOEx/SequenceInputStreamEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedIOStream.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IOEx/BufferedIOStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,12 +155,13 @@
         <option value="$PROJECT_DIR$/src/IOEx/PipedIOStream.java" />
         <option value="$PROJECT_DIR$/src/IOEx/PipedIOStream1.java" />
         <option value="$PROJECT_DIR$/src/IOEx/SequenceInputStreamEx.java" />
+        <option value="$PROJECT_DIR$/src/IOEx/BufferedIOStream.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="13" />
+    <option name="x" value="284" />
+    <option name="y" value="6" />
     <option name="width" value="1001" />
     <option name="height" value="860" />
   </component>
@@ -236,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SequenceInputStreamEx">
+  <component name="RunManager" selected="Application.BufferedIOStream">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -244,9 +245,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ByteArrayInputStreamEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="IOEx.ByteArrayInputStreamEx" />
+    <configuration name="BufferedIOStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="IOEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="IOEx.BufferedIOStream" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,19 +415,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ByteArrayInputStreamEx" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringEx2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FileIOStream" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PipedIOStream" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SequenceInputStreamEx" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringEx2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileIOStream" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PipedIOStream" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SequenceInputStreamEx" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BufferedIOStream" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SequenceInputStreamEx" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PipedIOStream" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FileIOStream" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringEx2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ByteArrayInputStreamEx" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BufferedIOStream" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SequenceInputStreamEx" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PipedIOStream" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileIOStream" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringEx2" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +448,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="13" width="1001" height="860" extended-state="0" />
+    <frame x="284" y="6" width="1001" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -481,14 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RecursionEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -554,7 +552,7 @@
         <state relative-caret-position="272">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,7 +637,7 @@
         <state relative-caret-position="272">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,7 +721,7 @@
         <state relative-caret-position="272">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -826,11 +824,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IOEx/SequenceInputStreamEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOEx/BufferedIOStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
