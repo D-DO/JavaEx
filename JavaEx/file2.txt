@@ -1,0 +1,8 @@
+Vector vector = new Vector();
+vector.add(new StringBufferInputStream("Begin file1\n"));
+vector.add(new FileInputStream("file1.txt")); 
+vector.add(new StringBufferInputStream("\nEnd of file1, begin file2\n"));
+vector.add(new FileInputStream("file2.txt"));
+vector.add(new StringBufferInputStream("\nEnd of file2"));
+Enumeration en = vector.elements();
+sequenceStream = new SequenceInputStream(en);
