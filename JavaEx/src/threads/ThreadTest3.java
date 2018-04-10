@@ -1,3 +1,5 @@
+package threads;
+
 public class ThreadTest3 {
 
     public static void main(String[] args) {

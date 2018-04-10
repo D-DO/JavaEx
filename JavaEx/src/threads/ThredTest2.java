@@ -1,3 +1,5 @@
+package threads;
+
 public class ThredTest2 implements Runnable{
     @Override
     public void run() {
